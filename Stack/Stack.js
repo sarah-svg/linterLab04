@@ -2,7 +2,7 @@ class Stack {
     #stack;
 
     constructor() {
-        this.#stack = [];
+      this.#stack = [];
     }
 
     // put item on top of stack
