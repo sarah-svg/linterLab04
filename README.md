@@ -1,12 +1,12 @@
 # linterLab04
 
-Linter Lab
-dependencies
-express
-dev dependencies
-supertest
-jest
-nodemon
+Linter Lab ^
+dependencies ^
+express ^
+dev dependencies ^
+supertest ^
+jest ^
+nodemon ^
 In this lab you'll be creating a web API that receives a block of code and responds with a linting status.
 
 We are only going to check that all brackets match.
