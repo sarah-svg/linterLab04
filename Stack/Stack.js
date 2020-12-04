@@ -24,15 +24,6 @@ class Stack {
 
     }
 
-    match(string) {
-        const reg = /(\(|\)|\[|\]|\{|\})/sr;
-        const newReg = this.#stack
-            .split("")
-            .filter((letter) => letter.match(reg))
-            .join("");
-            return newReg;
-       
-    }
 }
 
 module.exports = Stack;
